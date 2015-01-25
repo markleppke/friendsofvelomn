@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
 
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -21,11 +23,16 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-  <nav class="top-bar" data-topbar role="navigation">
+<div class="fixed">
+  <nav class="top-bar" data-topbar role="navigation" >
+
   <ul class="title-area">
     <li class="name">
-      <h1><a href="/">Friends of VeloMN</a></h1>
-    </li>
+      <h1>
+        <span class="logo hidden-for-medium-up"><img src="img/velomn-logo.png"></span>
+        <span class="hidden-for-medium-up hide-for-small-only">Friends of Velodrome Racing in Minneasota</span>
+        </h1>
+     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
   </ul>
@@ -33,15 +40,18 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li><a href="about_NSC.html">About the NSC</a></li>
-      <li><a href="five_year_plan.html">Five Year Plan</a></li>
+      <li><a href="about_NSC.html">About Us</a></li>
+      <li><a href="five_year_plan.html">Our Goal</a></li>
+      <li class="hide-for-small-only"><a href="index.html" class="logo"><img src="img/velomn-logo.png"></a></li>
+      <li><a href="five_year_plan.html">About the Track</a></li>
       <li class="has-form">
-  <a href="http://www.gofundme.com/hucgnk" target="_new" class="button radius">Donate Today!</a>
-</li>
+        <a href="http://www.gofundme.com/hucgnk" target="_new" class="button radius">Donate Today!</a>
+      </li>
     </ul>
   </section>
 </nav>
-
+</div>
+<!-- /Navigation -->
 
     <div class="row" style="margin-top:2em;">
       <div class="large-12 columns">
